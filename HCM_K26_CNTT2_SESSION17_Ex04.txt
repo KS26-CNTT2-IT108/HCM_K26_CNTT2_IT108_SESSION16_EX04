@@ -1,0 +1,45 @@
+SESSION17
+Bài 4 : Quản lý Môi trường Trình duyệt cho Lập trình viên
+
+Tên lớp: HCM K26 CNTT2
+Môn học: Nhập môn công nghệ thông tin
+Họ và tên: LƯƠNG THANH THƯ
+
+
+Phần 1: So sánh & Đánh giá
+
+1. Cách ly dữ liệu (Data Isolation)
+Incognito Mode
+Ưu điểm: tách biệt với cửa sổ thường.
+Nhược điểm: các cửa sổ ẩn danh dùng chung một phiên, không đăng nhập 2 tài khoản cùng lúc được.
+Dedicated Profile
+Ưu điểm: mỗi profile có cookie, cache, bookmark riêng; đăng nhập nhiều tài khoản song song được.
+Nhược điểm: cần thiết lập ban đầu.
+
+2. Khả năng lưu giữ trạng thái lâu dài
+Incognito Mode
+Ưu điểm: không để lại dấu vết trên máy.
+Nhược điểm: đóng cửa sổ là mất đăng nhập, lịch sử, cài đặt; extension thường bị tắt.
+Dedicated Profile
+Ưu điểm: giữ bookmark, mật khẩu, extension, phiên đăng nhập sau khi tắt máy.
+Nhược điểm: dữ liệu lưu lâu trên máy nên cần bảo mật profile.
+
+3. Hiệu suất làm việc
+Incognito Mode
+Ưu điểm: mở nhanh, không cần cấu hình.
+Nhược điểm: phải đăng nhập lại mỗi lần test, mất thời gian lặp đi lặp lại.
+Dedicated Profile
+Ưu điểm: chuyển profile là làm việc ngay, mỗi profile có đúng bộ công cụ.
+Nhược điểm: tốn thêm RAM, dễ nhầm profile nếu không đặt tên và màu.
+
+Phần 2: Lựa chọn – Mô hình 3 Profile cho thành viên A
+Personal: Gmail cá nhân, mạng xã hội, giải trí.
+Work: tài khoản công ty, GitHub, tài liệu kỹ thuật, bookmark và extension dev (lưu lâu dài, không mất khi tắt máy).
+Sandbox: tài khoản test dự án LMS, môi trường staging; được xóa cookie, cache thoải mái.
+
+Vì sao tối ưu hơn Ẩn danh:
+A không phải đăng xuất tài khoản cá nhân, chỉ cần chuyển profile.
+Bookmark, extension và đăng nhập được giữ lâu dài, hết tình trạng mất sạch khi tắt máy.
+Dữ liệu test và dữ liệu thật tách hẳn nhau, giảm rủi ro thao tác nhầm.
+Có thể mở Work và Sandbox cạnh nhau để đối chiếu kết quả.
+Mẹo: đặt tên và màu khác nhau cho mỗi profile để không nhầm. Incognito chỉ dùng thỉnh thoảng, ví dụ kiểm tra giao diện khi chưa đăng nhập.
